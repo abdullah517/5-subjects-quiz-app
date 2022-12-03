@@ -77,7 +77,8 @@ class Homepage extends StatelessWidget {
                 itemBuilder: (context, index) {
                   if (index == 0) {
                     return Text(
-                      "Please select your desired option",
+                      "Select Option",
+                      textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 33, color: Colors.amber),
                     );
                   } else {
