@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:multiple_subjects_quiz_app/QuestionCard.dart';
 import 'package:multiple_subjects_quiz_app/buttons.dart';
-import 'package:multiple_subjects_quiz_app/main.dart';
 import 'Quiz.dart';
 
 class Result extends StatelessWidget {
@@ -50,7 +49,7 @@ class Result extends StatelessWidget {
         ),
         child: Center(
             child: SizedBox(
-          width: MediaQuery.of(context).size.width * .3,
+          width: MediaQuery.of(context).size.width * .9,
           height: double.infinity,
           child: ListView(
             physics: const AlwaysScrollableScrollPhysics(), // new

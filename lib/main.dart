@@ -72,7 +72,7 @@ class Homepage extends StatelessWidget {
         ),
         child: Center(
           child: SizedBox(
-            width: MediaQuery.of(context).size.width * .4,
+            width: MediaQuery.of(context).size.width * .5,
             child: ListView.separated(
                 itemBuilder: (context, index) {
                   if (index == 0) {

@@ -26,10 +26,10 @@ class QACARD extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 400,
+      height: 450,
       width: 600,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(20.0)),
+          borderRadius: BorderRadius.all(Radius.circular(30.0)),
           color: Colors.white),
       child: Column(
         children: [
@@ -72,7 +72,7 @@ class QACARD extends StatelessWidget {
           ],
           makebtn == true
               ? Padding(
-                  padding: const EdgeInsets.fromLTRB(450, 20, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(220, 0, 0, 0),
                   child: createbutton(func: changeindex, text: text),
                 )
               : newlist[questionindex] == list1[questionindex]['correctanswer']
